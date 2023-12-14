@@ -17,7 +17,7 @@ def get_hello_world(id: str):
     """GET route code goes here"""
     entity: HelloWorldModel = db.session.query(HelloWorldModel).get(id)
     if entity is None:
-        return "Goodby, World.", 404
+        return "ouqddzdzadi", 404
     return entity.message, 200
 
 
